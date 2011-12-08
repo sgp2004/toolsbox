@@ -1,0 +1,487 @@
+<html>
+<head>
+<title>JDK1.5 management feature</title>
+</head>
+<body>
+<h1>Java Runtime Info</h1>
+
+<b>Vm Name</b>: Java HotSpot(TM) Server VM<br>
+<b>Vm Version</b>: 16.3-b01<br>
+<b>Vm Vendor</b>: Sun Microsystems Inc.<br>
+<b>Up Time</b>: 3.994137 hours<br>
+<b>Input Arguments</b>: [-Djava.util.logging.config.file=/home/liyan/app/apache-tomcat-6.0.20/conf/logging.properties, -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager, -Djava.endorsed.dirs=/home/liyan/app/apache-tomcat-6.0.20/endorsed, -Dcatalina.base=/home/liyan/app/apache-tomcat-6.0.20, -Dcatalina.home=/home/liyan/app/apache-tomcat-6.0.20, -Djava.io.tmpdir=/home/liyan/app/apache-tomcat-6.0.20/temp]<br>
+<b>Library Path</b>: /usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/i386/server:/usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.20/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib<br>
+<b>Class Path</b>: :/home/liyan/app/apache-tomcat-6.0.20/bin/bootstrap.jar<br>
+<hr>
+<h1>JVM OS Info</h1>
+
+<b>OS Name: </b>Linux<br>
+<b>OS Versin: </b>2.6.32-22-generic<br>
+<b>OS Available Processors: </b>2<br>
+<b>OS Architecture: </b>i386<br>
+<hr>
+<h1>JVM Memory Info</h1>
+
+<b>Init Memory: </b>49M<br>
+<b>MAX Memory: </b>704M<br>
+<b>Used Memory: </b>11M<br>
+<hr>
+<h1>JVM GC Info</h1>
+
+
+<b>GC1 Name: </b>PS Scavenge<br>
+<b>GC1 Memory Pool Names: </b>
+
+PS Eden Space |
+
+PS Survivor Space |
+
+<br>
+<b>GC1 Is Valid: </b>true<br>
+<b>GC1 Times: </b>14 times<br>
+<b>GC1 Time: </b>0 sec<br><hr align=left width="40%">
+
+<b>GC2 Name: </b>PS MarkSweep<br>
+<b>GC2 Memory Pool Names: </b>
+
+PS Eden Space |
+
+PS Survivor Space |
+
+PS Old Gen |
+
+PS Perm Gen |
+
+<br>
+<b>GC2 Is Valid: </b>true<br>
+<b>GC2 Times: </b>0 times<br>
+<b>GC2 Time: </b>0 sec<br><hr align=left width="40%">
+
+<hr>
+<h1>JVM Thread Info</h1>
+
+<b>Thread Count: </b>13<br>
+<b>Started Thread Count: </b>18<br>
+<b>thread contention monitoring is enabled? </b>true<br>
+<b>if the Java virtual machine supports thread contention monitoring? </b>true<br>
+<b>thread CPU time measurement is enabled? </b>true<br>
+<b>if the Java virtual machine implementation supports CPU time measurement for any thread? </b>true<br>
+<hr>
+
+<b>Thread ID: </b>18<br>
+
+<b>Thread Name: </b>http-8080-2<br>
+<b>Thread State: </b>RUNNABLE<br>
+<b>Thread Lock Name: </b>null<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>1 sec<br>
+<b>Stack Info: (depth:22)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+sun.management.ThreadImpl.getThreadInfo0(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:145)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:123)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jsp.all_jsp._jspService(all_jsp.java:236)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+javax.servlet.http.HttpServlet.service(HttpServlet.java:717)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+javax.servlet.http.HttpServlet.service(HttpServlet.java:717)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>9<br>
+
+<b>Thread Name: </b>ContainerBackgroundProcessor[StandardEngine[Catalina]]<br>
+<b>Thread State: </b>TIMED_WAITING<br>
+<b>Thread Lock Name: </b>null<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>1 sec<br>
+<b>Stack Info: (depth:3)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.sleep(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1579)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>1<br>
+
+<b>Thread Name: </b>main<br>
+<b>Thread State: </b>RUNNABLE<br>
+<b>Thread Lock Name: </b>null<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>1 sec<br>
+<b>Stack Info: (depth:13)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.PlainSocketImpl.socketAccept(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.PlainSocketImpl.accept(PlainSocketImpl.java:390)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.ServerSocket.implAccept(ServerSocket.java:453)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.ServerSocket.accept(ServerSocket.java:421)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.core.StandardServer.await(StandardServer.java:389)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.startup.Catalina.await(Catalina.java:647)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.startup.Catalina.start(Catalina.java:607)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.reflect.Method.invoke(Method.java:597)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)<br>
+
+<hr>
+
+<b>Thread ID: </b>14<br>
+
+<b>Thread Name: </b>TP-Processor4<br>
+<b>Thread State: </b>RUNNABLE<br>
+<b>Thread Lock Name: </b>null<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:9)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.PlainSocketImpl.socketAccept(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.PlainSocketImpl.accept(PlainSocketImpl.java:390)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.ServerSocket.implAccept(ServerSocket.java:453)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.ServerSocket.accept(ServerSocket.java:421)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jk.common.ChannelSocket.accept(ChannelSocket.java:307)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jk.common.ChannelSocket.acceptConnections(ChannelSocket.java:661)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.jk.common.ChannelSocket$SocketAcceptor.runIt(ChannelSocket.java:872)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>13<br>
+
+<b>Thread Name: </b>TP-Processor3<br>
+<b>Thread State: </b>WAITING<br>
+<b>Thread Lock Name: </b>org.apache.tomcat.util.threads.ThreadPool$ControlRunnable@175ade6<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:4)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Object.java:485)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:662)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>12<br>
+
+<b>Thread Name: </b>TP-Processor2<br>
+<b>Thread State: </b>WAITING<br>
+<b>Thread Lock Name: </b>org.apache.tomcat.util.threads.ThreadPool$ControlRunnable@ebf068<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:4)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Object.java:485)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:662)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>11<br>
+
+<b>Thread Name: </b>TP-Processor1<br>
+<b>Thread State: </b>WAITING<br>
+<b>Thread Lock Name: </b>org.apache.tomcat.util.threads.ThreadPool$ControlRunnable@1f44ec7<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:4)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Object.java:485)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:662)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>10<br>
+
+<b>Thread Name: </b>http-8080-Acceptor-0<br>
+<b>Thread State: </b>RUNNABLE<br>
+<b>Thread Lock Name: </b>null<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:7)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.PlainSocketImpl.socketAccept(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.PlainSocketImpl.accept(PlainSocketImpl.java:390)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.ServerSocket.implAccept(ServerSocket.java:453)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.net.ServerSocket.accept(ServerSocket.java:421)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:61)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:317)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>17<br>
+
+<b>Thread Name: </b>http-8080-1<br>
+<b>Thread State: </b>WAITING<br>
+<b>Thread Lock Name: </b>org.apache.tomcat.util.net.JIoEndpoint$Worker@23756<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:5)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Object.java:485)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.net.JIoEndpoint$Worker.await(JIoEndpoint.java:423)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:449)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<b>Thread ID: </b>4<br>
+
+<b>Thread Name: </b>Signal Dispatcher<br>
+<b>Thread State: </b>RUNNABLE<br>
+<b>Thread Lock Name: </b>null<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:0)</b><br>
+
+<hr>
+
+<b>Thread ID: </b>3<br>
+
+<b>Thread Name: </b>Finalizer<br>
+<b>Thread State: </b>WAITING<br>
+<b>Thread Lock Name: </b>java.lang.ref.ReferenceQueue$Lock@602b6b<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:4)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:159)<br>
+
+<hr>
+
+<b>Thread ID: </b>2<br>
+
+<b>Thread Name: </b>Reference Handler<br>
+<b>Thread State: </b>WAITING<br>
+<b>Thread Lock Name: </b>java.lang.ref.Reference$Lock@1c297a3<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:3)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Object.java:485)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)<br>
+
+<hr>
+
+<b>Thread ID: </b>15<br>
+
+<b>Thread Name: </b>TP-Monitor<br>
+<b>Thread State: </b>TIMED_WAITING<br>
+<b>Thread Lock Name: </b>org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable@17f11fb<br>
+<b>Thread Lock Owner Name: </b>null<br>
+<b>Thread CPU Time: </b>0 sec<br>
+<b>Stack Info: (depth:3)</b><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Object.wait(Native Method)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable.run(ThreadPool.java:565)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;+java.lang.Thread.run(Thread.java:619)<br>
+
+<hr>
+
+<hr>
+<h1>System Process(pstree)</h1>
+init-+-NetworkManager-+-dhclient<br>
+     |                `-{NetworkManager}<br>
+     |-VBoxSVC---8*[{VBoxSVC}]<br>
+     |-VirtualBox-+-VBoxXPCOMIPCD<br>
+     |            `-20*[{VirtualBox}]<br>
+     |-acpid<br>
+     |-atd<br>
+     |-avahi-daemon---avahi-daemon<br>
+     |-bash---bash---eclipse---20*[{eclipse}]<br>
+     |-bonobo-activati---{bonobo-activat}<br>
+     |-chrome-+-chrome<br>
+     |        |-chrome---3*[{chrome}]<br>
+     |        `-9*[{chrome}]<br>
+     |-chrome---12*[chrome---{chrome}]<br>
+     |-clock-applet<br>
+     |-console-kit-dae---63*[{console-kit-da}]<br>
+     |-cron<br>
+     |-cupsd<br>
+     |-2*[dbus-daemon]<br>
+     |-2*[dbus-launch]<br>
+     |-firefox---run-mozilla.sh---firefox-bin---10*[{firefox-bin}]<br>
+     |-gconfd-2<br>
+     |-gdm-binary-+-gdm-simple-slav-+-Xorg<br>
+     |            |                 |-gdm-session-wor-+-gnome-session-+-/usr/bin/gnome-<br>
+     |            |                 |                 |               |-bluetooth-apple<br>
+     |            |                 |                 |               |-compiz---sh---gtk-window-deco<br>
+     |            |                 |                 |               |-evolution-alarm---{evolution-alar}<br>
+     |            |                 |                 |               |-gdu-notificatio<br>
+     |            |                 |                 |               |-gnome-do---gnome-do---7*[{gnome-do}]<br>
+     |            |                 |                 |               |-gnome-panel<br>
+     |            |                 |                 |               |-gnome-power-man---{gnome-power-ma}<br>
+     |            |                 |                 |               |-ibus-daemon-+-ibus-engine-pin<br>
+     |            |                 |                 |               |             |-ibus-gconf<br>
+     |            |                 |                 |               |             |-python<br>
+     |            |                 |                 |               |             `-{ibus-daemon}<br>
+     |            |                 |                 |               |-nautilus---{nautilus}<br>
+     |            |                 |                 |               |-nm-applet<br>
+     |            |                 |                 |               |-polkit-gnome-au<br>
+     |            |                 |                 |               |-python<br>
+     |            |                 |                 |               |-ssh-agent<br>
+     |            |                 |                 |               |-update-notifier<br>
+     |            |                 |                 |               `-{gnome-session}<br>
+     |            |                 |                 `-{gdm-session-wo}<br>
+     |            |                 `-{gdm-simple-sla}<br>
+     |            `-{gdm-binary}<br>
+     |-gedit<br>
+     |-6*[getty]<br>
+     |-gnome-keyring-d---2*[{gnome-keyring-}]<br>
+     |-gnome-screensav<br>
+     |-gnome-settings----{gnome-settings}<br>
+     |-gnome-terminal-+-2*[bash]<br>
+     |                |-bash---bash---wget<br>
+     |                |-gnome-pty-helpe<br>
+     |                `-{gnome-terminal}<br>
+     |-gvfs-afc-volume---{gvfs-afc-volum}<br>
+     |-gvfs-fuse-daemo---3*[{gvfs-fuse-daem}]<br>
+     |-gvfs-gdu-volume<br>
+     |-gvfs-gphoto2-vo<br>
+     |-gvfsd<br>
+     |-gvfsd-burn<br>
+     |-gvfsd-metadata<br>
+     |-gvfsd-trash<br>
+     |-hald-+-hald-runner-+-hald-addon-acpi<br>
+     |      |             |-hald-addon-cpuf<br>
+     |      |             |-hald-addon-gene<br>
+     |      |             |-hald-addon-inpu<br>
+     |      |             |-hald-addon-rfki<br>
+     |      |             `-hald-addon-stor<br>
+     |      `-{hald}<br>
+     |-ibus-x11<br>
+     |-indicator-apple---{indicator-appl}<br>
+     |-indicator-apple<br>
+     |-indicator-appli<br>
+     |-indicator-me-se<br>
+     |-indicator-messa<br>
+     |-indicator-sessi<br>
+     |-indicator-sound<br>
+     |-java-+-pstree<br>
+     |      `-21*[{java}]<br>
+     |-modem-manager<br>
+     |-notify-osd<br>
+     |-polkitd<br>
+     |-pulseaudio-+-gconf-helper<br>
+     |            `-2*[{pulseaudio}]<br>
+     |-python<br>
+     |-rsyslogd---2*[{rsyslogd}]<br>
+     |-rtkit-daemon---2*[{rtkit-daemon}]<br>
+     |-syndaemon<br>
+     |-system-service-<br>
+     |-trashapplet<br>
+     |-udevd---2*[udevd]<br>
+     |-udisks-daemon-+-udisks-daemon<br>
+     |               `-{udisks-daemon}<br>
+     |-upowerd<br>
+     |-upstart-udev-br<br>
+     |-winbindd---winbindd<br>
+     |-wnck-applet<br>
+     `-wpa_supplicant<br>
+
+<hr>
+<h1>VMStat</h1>
+<pre>
+procs -----------memory---------- ---swap-- -----io---- -system-- ----cpu----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa
+ 3  0   3000  86416  31472 1066420    0    0    86    76  641  393 16 17 66  1
+</pre>
+
+<hr>
+<h1> Execute Cost Time 98 </h1>
+</body>
